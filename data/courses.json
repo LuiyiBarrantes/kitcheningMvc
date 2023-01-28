@@ -1,0 +1,73 @@
+[
+    {
+        "id" : 3,
+        "title" : "SUSHI PROFESIONAL",
+        "price" : 9530,
+        "description": "Con una gran experiencia Roberto Nishida te enseña los secretos de las técnicas básicas en la elaboración del sushi, vas a descubrir la importancia de cada ingrediente para que realices una gran variedad de rolls, sashimis y niguiris.",
+        "prevDescription": "Con una gran experiencia Roberto Nishida te enseña los secretos de las técnicas básicas en...",
+
+        "image": "curso03.jpg",
+        "chef": "Roberto Nishida",
+        "status": "img-nuevo.png"
+    },
+    {
+        "id" : 1,
+        "title" : "ABC DE LA COCINA",
+        "price" : 10530,
+        "description": "Tu comida puede transformarse en platos de restaurante de la mano de Guillermo Calabrese que te enseñará a combinar ingredientes simples con productos gourmet para darle un sabor distinto a tus recetas.",
+        "prevDescription": "Tu comida puede transformarse en platos de restaurante de la mano de Guillermo Calabrese ...",
+        "image": "curso01.webp",
+        "chef": "Guillermo Calabrese",
+        "status": "img-descuento.png"
+    },
+    {
+        "id" : 2,
+        "title" : "TARTAS",
+        "price" : 6800,
+        "description": "Tu comida puede transformarse en platos de restaurante de la mano de Guillermo Calabrese que te enseñará a combinar ingredientes simples con productos gourmet para darle un sabor distinto a tus recetas.",
+        "prevDescription": "Tu comida puede transformarse en platos de ...",
+        "image": "curso02.webp",
+        "chef": "Guillermo Calabrese",
+        "status": "img-descuento.png"
+    },
+    {
+        "id" : 7,
+        "title" : "FRUTOS DE MAR",
+        "price" : 4800,
+        "description": "Tu comida puede transformarse en platos de restaurante de la mano de Guillermo Calabrese que te enseñará a combinar ingredientes simples con productos gourmet para darle un sabor distinto a tus recetas.",
+        "prevDescription": "Tu comida puede transformarse en platos de restaurante de la mano de ...",
+        "image": "curso07.webp",
+        "chef": "Guillermo Calabrese",
+        "status": "img-gratis.png"
+    },
+    {
+        "id" : 4,
+        "title" : "PANIFICADOS",
+        "price" : 7800,
+        "description": "Tu comida puede transformarse en platos de restaurante de la mano de Guillermo Calabrese que te enseñará a combinar ingredientes simples con productos gourmet para darle un sabor distinto a tus recetas.",
+        "prevDescription": "Tu comida puede transformarse en platos de restaurante de la mano de ...",
+        "image": "curso04.webp",
+        "chef": "Guillermo Calabrese",
+        "status": "img-descuento.png"
+    },
+    {
+        "id" : 5,
+        "title" : "POSTRES",
+        "price" : 6800,
+        "description": "Tu comida puede transformarse en platos de restaurante de la mano de Guillermo Calabrese que te enseñará a combinar ingredientes simples con productos gourmet para darle un sabor distinto a tus recetas.",
+        "prevDescription": "Tu comida puede transformarse en platos de restaurante de la mano de ...",
+        "image": "curso05.jpg",
+        "chef": "Guillermo Calabrese",
+        "status": "img-nuevo.png"
+    },
+    {
+        "id" : 6,
+        "title" : "CARNES",
+        "price" : 9800,
+        "description": "Tu comida puede transformarse en platos de restaurante de la mano de Guillermo Calabrese que te enseñará a combinar ingredientes simples con productos gourmet para darle un sabor distinto a tus recetas.",
+        "prevDescription": "Tu comida puede transformarse en platos de restaurante de la mano de ...",
+        "image": "curso06.jpg",
+        "chef": "Guillermo Calabrese",
+        "status": "img-descuento.png"
+    }
+]

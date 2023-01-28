@@ -1,55 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kitchening | Home</title>
-
-  <!-- bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <!-- animate -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <!-- glider -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
-  <!-- lo más -->
-  <link rel="stylesheet" href="/stylesheets/styles.css">
-
-  <!-- fontawesome -->
-  <script src="https://kit.fontawesome.com/3f21023fe6.js" crossorigin="anonymous"></script>
-</head>
+<!-- HEAD -->
+  <%- include('./partials/head') %> 
 
 <body class="home">
-  <!-- encabezado -->
-  <header class="header">
+<!-- HEADER -->
+  <%- include('./partials/header') %> 
 
-    <a href="/"> <img id="logo" class="header__logo" src="/images/logo.jpg" alt=""></a>
-
-    <button class="header__hamburger">
-      <i class="fas fa-bars"></i>
-    </button>
-    <nav class="header__nav">
-      <ul class="header__nav--menu">
-        <li>
-          <a href="/">cursos</a>
-        </li>
-        <li>
-          <a href="/buscar">buscar</a>
-        </li>
-      </ul>
-      <ul class="header__nav--user">
-        <li>
-          <a href="/registrar">registrar</a>
-        </li>
-        <li>
-          <a href="/ingresar">ingresar</a>
-
-        </li>
-      </ul>
-    </nav>
-  </header>
   <!-- principal -->
   <main class="home__main">
     <!-- banner -->
@@ -86,184 +44,37 @@
         </button>
       </div>
     </section>
-    <!-- productos -->
+    <!-- cursos -->
     <section class="home__main__section--productos">
-      <!-- producto -->
-      <article class="home__main__section__article animate__animated">
-        <div class="home__main__section__article--imagen">
-          <img class="home__main__section__article--imagen-product" src="/images/img-pdto-1.jpg" alt="">
-          <img class="home__main__section__article--imagen-sticker" src="/images/img-nuevo.png" alt="">
-          <a class="home__main__section__article--imagen-zoom" href="">ampliar foto</a>
-        </div>
-        <div class="home__main__section__article--contenido">
-          <h4>Lorem, ipsum dolor.</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vero rerum iure dolorum optio delectus aut
-            obcaecati culpa magni laudantium!</p>
-          <a href="">ver más</a>
-        </div>
-      </article>
-      <!-- producto -->
-      <article class="home__main__section__article animate__animated ">
-        <div class="home__main__section__article--imagen">
-          <img class="home__main__section__article--imagen-product" src="/images/img-pdto-2.jpg" alt="">
-          <img class="home__main__section__article--imagen-sticker" src="/images/img-gratis.png" alt="">
-          <a class="home__main__section__article--imagen-zoom" href="">ampliar foto</a>
-        </div>
-        <div class="home__main__section__article--contenido">
-          <h4>Lorem, ipsum dolor.</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vero rerum iure dolorum optio delectus aut
-            obcaecati culpa magni laudantium!</p>
-          <a href="">ver más</a>
-        </div>
-      </article>
-      <!-- producto -->
-      <article class="home__main__section__article animate__animated">
-        <div class="home__main__section__article--imagen">
-          <img class="home__main__section__article--imagen-product" src="/images/img-pdto-3.jpg" alt="">
-          <img class="home__main__section__article--imagen-sticker" src="/images/img-descuento.png" alt="">
-          <a class="home__main__section__article--imagen-zoom" href="">ampliar foto</a>
-        </div>
-        <div class="home__main__section__article--contenido">
-          <h4>Lorem, ipsum dolor.</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vero rerum iure dolorum optio delectus aut
-            obcaecati culpa magni laudantium!</p>
-          <a href="">ver más</a>
-        </div>
-      </article>
-      <!-- producto -->
-      <article class="home__main__section__article">
-        <div class="home__main__section__article--imagen">
-          <img class="home__main__section__article--imagen-product" src="/images/img-pdto-1.jpg" alt="">
-          <img class="home__main__section__article--imagen-sticker" src="/images/img-nuevo.png" alt="">
-          <a class="home__main__section__article--imagen-zoom" href="">ampliar foto</a>
-        </div>
-        <div class="home__main__section__article--contenido">
-          <h4>Lorem, ipsum dolor.</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vero rerum iure dolorum optio delectus aut
-            obcaecati culpa magni laudantium!</p>
-          <a href="">ver más</a>
-        </div>
-      </article>
-      <!-- producto -->
-      <article class="home__main__section__article">
-        <div class="home__main__section__article--imagen">
-          <img class="home__main__section__article--imagen-product" src="/images/img-pdto-2.jpg" alt="">
-          <img class="home__main__section__article--imagen-sticker" src="/images/img-gratis.png" alt="">
-          <a class="home__main__section__article--imagen-zoom" href="">ampliar foto</a>
-        </div>
-        <div class="home__main__section__article--contenido">
-          <h4>Lorem, ipsum dolor.</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vero rerum iure dolorum optio delectus aut
-            obcaecati culpa magni laudantium!</p>
-          <a href="">ver más</a>
-        </div>
-      </article>
-      <!-- producto -->
-      <article class="home__main__section__article">
-        <div class="home__main__section__article--imagen">
-          <img class="home__main__section__article--imagen-product" src="/images/img-pdto-3.jpg" alt="">
-          <img class="home__main__section__article--imagen-sticker" src="/images/img-descuento.png" alt="">
-          <a class="home__main__section__article--imagen-zoom" href="">ampliar foto</a>
-        </div>
-        <div class="home__main__section__article--contenido">
-          <h4>Lorem, ipsum dolor.</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vero rerum iure dolorum optio delectus aut
-            obcaecati culpa magni laudantium!</p>
-          <a href="">ver más</a>
-        </div>
-      </article>
-    </section>
-    <section class="home__main__section--courses">
-      <div class="glider-contain">
-        <div class="glider">
-          <a href="">
-            <div class="card carousel-courses-item">
-              <img  src="/images/cursos/curso01.webp"  class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-dark">ABC cocina</h5>
-              </div>
-            </div>
-          </a>
-          <a href="">
-            <div class="card carousel-courses-item">
-              <img  src="/images/cursos/curso02.webp"  class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-dark">ABC cocina</h5>
-              </div>
-            </div>
-          </a>
-          <a href="">
-            <div class="card carousel-courses-item">
-              <img  src="/images/cursos/curso03.jpg"  class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-dark">ABC cocina</h5>
-              </div>
-            </div>
-          </a>
-          <a href="">
-            <div class="card carousel-courses-item">
-              <img  src="/images/cursos/curso04.webp"  class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-dark">ABC cocina</h5>
-              </div>
-            </div>
-          </a>
-          <a href="">
-            <div class="card carousel-courses-item">
-              <img  src="/images/cursos/curso05.jpg"  class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-dark">ABC cocina</h5>
-              </div>
-            </div>
-          </a>
-          <a href="">
-            <div class="card carousel-courses-item">
-              <img  src="/images/cursos/curso06.jpg"  class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-dark">ABC cocina</h5>
-              </div>
-            </div>
-          </a>
-          <a href="">
-            <div class="card carousel-courses-item">
-              <img  src="/images/cursos/curso07.webp"  class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-dark">ABC cocina</h5>
-              </div>
-            </div>
-          </a>
-        </div>
+      <!-- curso -->
+      <% courses.forEach(({title,price,prevDescription,chef,image,id,status}) => { %>
+       
       
-        <button aria-label="Previous" class="glider-prev">«</button>
-        <button aria-label="Next" class="glider-next">»</button>
-        <div role="tablist" class="dots"></div>
-      </div>
+      <article class="home__main__section__article animate__animated">
+        <div class="home__main__section__article--imagen">
+          <img class="home__main__section__article--imagen-product" src="/images/cursos/<%-image%>" alt="">
+          <img class="home__main__section__article--imagen-sticker" src="/images/<%= status %> " alt="">
+          <a class="home__main__section__article--imagen-zoom" href="">ampliar foto</a>
+        </div>
+        <div class="home__main__section__article--contenido">
+          <h4><%= title %> </h4>
+          <p><%= prevDescription %> </p>
+          <a href="courses/detail/<%= id %> ">ver más</a>
+        </div>
+      </article><% }) %>
     </section>
+    <!-- carrousel -->
+    <%- include('./partials/carouselCourses') %> 
+    <!-- boton fijo whatsapp -->
     <section class="home__main__section--whatsapp">
       <a href="#"><img src="/images/whatsapp.png" alt=""></a>
     </section>
   </main>
   <!-- pie de pagina -->
-  <footer class="footer">
-    <nav class="footer__nav">
-      <ul class="footer__nav--menu">
-        <li><a href="/">home</a></li>
-        <li><a href="/quienes">quienes</a></li>
-        <li><a href="/servicios">servicios</a></li>
-        <li><a href="/portfolio">portfolio</a></li>
-        <li><a href="/sucursales">sucursales</a></li>
-        <li><a href="/contacto">contacto</a></li>
-      </ul>
-    </nav>
-  </footer>
 
-  <!-- bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  
-  <!-- glider -->
-    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+  <%- include('./partials/footer') %> 
+
+  <%- include('./partials/scripts') %> 
 
     <script>
 
